@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgreen;
+  }
+  h1,p{
+    font-family:'Roboto', sans-serif;
+    padding: 1px;
+    margin: 0 auto;
+  }
+  label,input,textarea{
+    padding: 0 auto;
+    margin:  0 auto;
+    width: 100%
+  }
+  input{
+  border: solid 2px rgb(132,132,132)
+  }
+  
+  #submit{
+    border: 5px;
+    padding-top: 2px;
+  }

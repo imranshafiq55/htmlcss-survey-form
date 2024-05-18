@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Survey Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+</head>
+<body>
+ <h1 id="title">Survey Form</h1>  
+ <p id="description">This is a survey form. So, please fill it.</p>
+ <form id="survey-form">
+   
+   <label for="name" id="name-label">Enter your name<input id="name" type="text" name="name" placeholder="Ali" value="name" required>
+   </label>
+
+    <label for="email" id="email-label">Enter your Email<input id="email" type="email" name="email" value="email" placeholder="abc@gmail.com" required>
+    </label>
+
+    <label for="number" id="number-label">Enter your age<input id="number" type="number" name="number" value="number" min="0" max="60" placeholder="0" >
+    </label>
+    <label>
+      Enter your Gender:
+    <select id="dropdown">
+    <option>Male</option>
+    <option>Female</option>
+    </select>
+    </label>
+    <label><input type="radio" name="nationality" value="Pakistani">Pakistani</label>
+    <label><input type="radio" name="nationality" value="International">International</label>
+    <label><input type="checkbox" name="duration" value="1  month" >1 month</label>
+    <label><input type="checkbox" name="duration" value="3 month">3 month</label>
+    <label><input type="checkbox" name="duration" value="6 month">6 month</label>
+   <label for="message">Something You want to say:<textarea id="message" name="message" rows="2" cols="20"></textarea></label>
+   
+   <button id="submit" type="submit">Submit</button>
+ </form>
+</body>
+</html>
+
+
+
+
